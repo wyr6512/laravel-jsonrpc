@@ -1,0 +1,19 @@
+{
+    "name": "wyr6512/laravel-jsonrpc",
+    "description": "laravel-jsonrpc is a laravel package for jsonrpc",
+    "authors": [
+        {
+            "name": "wyr6512",
+            "email": "wyr6512@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "wyr6512\\laraveljsonrpc\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "hprose/hprose": "^2.0"
+    }
+}
